@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    /* max-width: 500px; */
+    min-width: 200px; 
     height: 250px;
     border: 1px solid #003444;
     background-color: rgb(15, 91, 179);
