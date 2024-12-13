@@ -10,23 +10,23 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #01664d;
     font-family: "Poppins", serif;
     font-style: normal;
 }
 
 .container {
-    min-width: 200px; 
+    min-width: 200px;
+    background-color: #fff; 
     height: 250px;
     border: 1px solid #003444;
-    background-color: rgb(15, 91, 179);
-    border-radius: 10px;
+   border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding: 20px;
     position: relative;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 3px 3px 9px rgb(243, 241, 241);
 }
 
 img {
@@ -49,7 +49,7 @@ img {
 .quote {
     font-size: 1.1rem;
     margin-top: 30px;
-    color: white;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -81,4 +81,15 @@ img {
 
 .lines img {
     width: 20px;
+}
+
+@media  screen and (max-width:415px) {
+    body{
+        background-color: black;
+        overflow-y: hidden;
+    }
+    .container{
+        width: 90vw;
+        height: 40vh;
+    }
 }
